@@ -1,0 +1,68 @@
+body {
+    background: url("https://manuelmendezninja.s3.sa-east-1.amazonaws.com/Backgrounds/blue-purple-background.avif"); /* The image used for background */
+    height: 110%;
+
+  /* Center and scale the image nicely */
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  .container {
+    width: 100%;
+    height: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  
+  .links-container {
+    display: flex;
+    flex-direction: column;
+    jusify-content: center;
+    align-items: center;
+  }
+  
+  .links-container a {
+    width: 80%;
+  }
+
+  
+  .w3-theme-l5:hover {
+    background-color: #5c53d3 !important;
+  }
+  
+  .margin-top-2 {
+    margin-top: 32px;
+  }
+  
+  .bottom {
+    width: 100%;
+    text-align: center;
+    width: auto;
+    font-weight: bolder;
+  }
+  
+  .bottom span {
+    color: indigo;
+  }
+  
+  .bottom svg {
+    stroke: indigo;
+    fill: indigo;
+  }
+
+  .fa-ghost{
+    color: indigo;
+  }
+  
+  @media (min-width: 768px) {
+    .link {
+      width: 100%;
+    }
+  }
+  @media (min-width: 576px) {
+    .container {
+      max-width: 540px;
+    }
+  }
